@@ -1,0 +1,465 @@
+{\rtf1\ansi\ansicpg949\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset129 AppleSDGothicNeo-Regular;\f2\fnil\fcharset0 Menlo-Regular;
+\f3\fnil\fcharset0 Menlo-Italic;}
+{\colortbl;\red255\green255\blue255;\red0\green128\blue128;\red63\green127\blue127;\red127\green0\blue127;
+\red42\green0\blue255;}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c50196\c50196;\csgenericrgb\c24706\c49804\c49804;\csgenericrgb\c49804\c0\c49804;
+\csgenericrgb\c16471\c0\c100000;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww19760\viewh25400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs36 \cf0 **jquery
+\f1 \'bf\'a1\'bc\'ad\'c0\'c7 ajax\
+=>\'bc\'f8\'bc\'f6 \'c0\'da\'b9\'d9\'bd\'ba\'c5\'a9\'b8\'b3\'c6\'ae \'c4\'da\'b5\'e5\'b7\'ce \'c0\'db\'bc\'ba\'c7\'cf\'b4\'c2 \'b0\'cd\'ba\'b8\'b4\'d9 \'c4\'da\'b5\'e5\'c0\'c7 \'b1\'e6\'c0\'cc\'b0\'a1 \'c2\'aa\'b0\'ed \'c7\'cf\'b3\'aa\'c0\'c7 \'b8\'de\'bc\'d2\'b5\'e5\'bf\'a1\'bc\'ad \'b8\'f0\'b5\'e7 \'bc\'b3\'c1\'a4\'c0\'bb \'c0\'fc\'ba\'ce\'c7\'d2 \'bc\'f6 \'c0\'d6\'c0\'bd\
+=>json\'c0\'c7 \'b0\'e6\'bf\'ec\'b4\'c2 \'b0\'e1\'b0\'fa\'b8\'a6 \'c6\'c4\'bd\'cc\'b5\'c8 \'bb\'f3\'c5\'c2\'b7\'ce \'b0\'a1\'c1\'ae\'bf\'c9\'b4\'cf\'b4\'d9.\
+JSON.parse(json\'b9\'ae\'c0\'da\'bf\'ad)\'c0\'bb \'c8\'a3\'c3\'e2\'c7\'d8\'bc\'ad \'c6\'c4\'bd\'cc\'c7\'d2 \'c7\'ca\'bf\'e4\'b0\'a1 \'be\'f8\'bd\'c0\'b4\'cf\'b4\'d9.\
+=>\'b0\'a1\'b5\'b6\'bc\'ba\'c0\'cc \'b6\'b3\'be\'ee\'c1\'fa \'bc\'f6 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9.\
+\
+1.jquery\'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2 \'b9\'e6\'b9\'fd\
+1)jquery\'b3\'aa \'b4\'d9\'b8\'a5 \'bb\'e7\'c0\'cc\'c6\'ae\'bf\'a1\'bc\'ad \'c1\'a6\'b0\'f8\'c7\'cf\'b4\'c2 \'b8\'b5\'c5\'a9\'b8\'a6 \'c1\'f7\'c1\'a2 \'bc\'b3\'c1\'a4\
+=>\'c7\'c1\'b7\'ce\'c1\'a7\'c6\'ae\'c0\'c7 \'c5\'a9\'b1\'e2\'b4\'c2 \'c1\'d9\'be\'ee\'b5\'e9\'c1\'f6\'b8\'b8 \'c0\'ce\'c5\'cd\'b3\'dd\'c0\'cc \'be\'c8\'b5\'c7\'b8\'e9 \'bb\'e7\'bf\'eb\'c7\'d2 \'bc\'f6 \'be\'f8\'c0\'bd\
+\
+2)jquery\'b8\'a6 \'b4\'d9\'bf\'ee\'b7\'ce\'b5\'e5 \'b9\'de\'be\'c6\'bc\'ad \'c7\'c1\'b7\'ce\'c1\'a7\'c6\'ae\'bf\'a1 \'c6\'f7\'c7\'d4\'bd\'c3\'c4\'d1\'bc\'ad \'bb\'e7\'bf\'eb\
+=>\'c7\'c1\'b7\'ce\'c1\'a7\'c6\'ae\'c0\'c7 \'c5\'a9\'b1\'e2\'b4\'c2 \'b4\'c3\'be\'ee\'b3\'aa\'c1\'f6\'b8\'b8 \'c0\'ce\'c5\'cd\'b3\'dd\'c0\'cc \'be\'c8\'b5\'c7\'b5\'b5 \'bb\'e7\'bf\'eb \'b0\'a1\'b4\'c9\
+\
+\
+2.\'c5\'d8\'bd\'ba\'c6\'ae \'c6\'c4\'c0\'cf\'c0\'bb \'c0\'d0\'be\'ee\'bc\'ad \'c3\'e2\'b7\'c2\'c7\'cf\'b1\'e2\
+$(\'bc\'b1\'c5\'c3\'c0\'da).load(\'c6\'c4\'c0\'cf\'b0\'e6\'b7\'ce) : \'c6\'c4\'c0\'cf\'b0\'e6\'b7\'ce\'bf\'a1 \'c7\'d8\'b4\'e7\'c7\'cf\'b4\'c2 \'b3\'bb\'bf\'eb\'c0\'bb \'c0\'d0\'be\'ee\'bc\'ad \'bc\'b1\'c5\'c3\'c0\'da\'bf\'a1 \'c3\'e2\'b7\'c2\
+=>\'c6\'c4\'c0\'cf\'c0\'c7 \'b3\'bb\'bf\'eb\'c0\'ba \'b4\'eb\'ba\'ce\'ba\'d0 \'bc\'ad\'b9\'f6\'bf\'a1\'bc\'ad \'bb\'fd\'bc\'ba\'c7\'d8\'bc\'ad \'bb\'e7\'bf\'eb\'c7\'d5\'b4\'cf\'b4\'d9.\
+\'c1\'f7\'c1\'a2 \'c0\'db\'bc\'ba\'c7\'cf\'c1\'f6 \'be\'ca\'bd\'c0\'b4\'cf\'b4\'d9.\
+=>html \'c6\'c4\'c0\'cf\'c0\'c7 \'b0\'e6\'bf\'ec\'b4\'c2 body\'c0\'c7 \'b3\'bb\'bf\'eb\'c0\'bb \'c0\'d0\'be\'ee\'bf\'c9\'b4\'cf\'b4\'d9.\
+html \'c6\'c4\'c0\'cf\'c0\'c7 \'b0\'e6\'bf\'ec\'b4\'c2 \'c6\'c4\'c0\'cf\'b0\'e6\'b7\'ce \'b5\'da\'bf\'a1 \'c5\'c2\'b1\'d7\'b8\'a6 \'c0\'db\'bc\'ba\'c7\'cf\'b8\'e9 \'c5\'c2\'b1\'d7\'c0\'c7 \'b3\'bb\'bf\'eb\'b8\'b8 \'b0\'a1\'c1\'ae\'bf\'c9\'b4\'cf\'b4\'d9.\
+\
+=>\'b0\'cb\'bb\'e7 \'c3\'a2\'bf\'a1\'bc\'ad 404 \'bf\'a1\'b7\'af\'b0\'a1 \'ba\'b8\'c0\'cc\'b8\'e9 \'b0\'e6\'b7\'ce\'b0\'a1 \'c0\'df\'b8\'f8\'b5\'c8 \'b0\'cd\'c0\'d4\'b4\'cf\'b4\'d9.\
+404\'bf\'a1\'b7\'af\'c0\'ce \'b0\'e6\'bf\'ec\'b4\'c2 \'b4\'e7\'ba\'d0\'b0\'a3\'c0\'ba \'c6\'c4\'c0\'cf\'c0\'c7 \'b0\'e6\'b7\'ce\'b8\'a6 \'c8\'ae\'c0\'ce\'c7\'cf\'b0\'ed \'b3\'aa\'c1\'df\'bf\'a1\'b4\'c2 \'c6\'c4\'c0\'cf\'c0\'c7 \'b0\'e6\'b7\'ce\'bf\'cd \'bf\'e4\'c3\'bb \'b0\'e6\'b7\'ce\'b8\'a6 \'c8\'ae\'c0\'ce\'c7\'d8\'be\'df \'c7\'d5\'b4\'cf\'b4\'d9.\
+=>iframe\'c0\'bb \'c0\'cc\'bf\'eb\'c7\'d8\'bc\'ad \'b3\'bb\'bf\'eb\'c0\'bb \'b0\'a1\'c1\'ae\'bf\'c0\'b4\'c2 \'b0\'cd\'c0\'ba \'b5\'bf\'b1\'e2\'c0\'fb\'c0\'b8\'b7\'ce \'b5\'bf\'c0\'db\'c7\'cf\'c1\'f6\'b8\'b8 ajax\'b4\'c2 \'ba\'f1\'b5\'bf\'b1\'e2 \'b9\'e6\'bd\'c4\'c0\'d4\'b4\'cf\'b4\'d9.\
+\
+\
+3.\'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6 \'b0\'a1\'c1\'ae\'bf\'cd\'bc\'ad \'c8\'b0\'bf\'eb\
+=>\'bf\'a9\'b7\'af\'b0\'a1\'c1\'f6 \'b8\'de\'bc\'d2\'b5\'e5\'b0\'a1 \'c0\'d6\'b4\'c2\'b5\'a5 \'bd\'b1\'b0\'d4 \'bb\'e7\'bf\'eb\'c7\'d2 \'bc\'f6 \'c0\'d6\'b4\'c2 \'b9\'fc\'bf\'eb \'b8\'de\'bc\'d2\'b5\'e5\'b4\'c2 $.ajax(\{\'bf\'c9\'bc\'c7\})\
+=>\'c1\'df\'bf\'e4\'c7\'d1 \'bf\'c9\'bc\'c7\
+url : \'bf\'e4\'c3\'bb\'c7\'d2 url\
+data : \'c6\'c4\'b6\'f3\'b9\'cc\'c5\'cd\'b8\'a6 \'bc\'b3\'c1\'a4\'c7\'cf\'b4\'c2 \'b0\'cd\'c0\'b8\'b7\'ce \{\'c6\'c4\'b6\'f3\'b9\'cc\'c5\'cd\'c0\'cc\'b8\'a7:\'c6\'c4\'b6\'f3\'b9\'cc\'c5\'cd\'b0\'aa,.....\}\'c0\'c7 \'c7\'fc\'c5\'c2\'b7\'ce \'c0\'db\'bc\'ba\
+type : GET\'c0\'cc\'b3\'aa POST\'b7\'ce \'bf\'e4\'c3\'bb \'b9\'e6\'bd\'c4\'c0\'bb \'bc\'b3\'c1\'a4 - \'b1\'e2\'ba\'bb\'c0\'ba GET\
+datatype :  \'b0\'e1\'b0\'fa\'b7\'ce \'b9\'de\'be\'c6\'bf\'c3 \'b5\'a5\'c0\'cc\'c5\'cd\'c0\'c7 \'c1\'be\'b7\'f9(text, xml, json \'b5\'ee)\
+success : \'bc\'ba\'b0\'f8\'c7\'df\'c0\'bb \'b6\'a7 \'c8\'a3\'c3\'e2\'b5\'c9 \'c7\'d4\'bc\'f6\'b8\'a6 \'c1\'f6\'c1\'a4 - \'b8\'c5\'b0\'b3\'ba\'af\'bc\'f6\'b0\'a1 1\'b0\'b3 \'c0\'d6\'b4\'c2 \'c7\'d4\'bc\'f6\'b8\'a6 \'c1\'f6\'c1\'a4\
+		\'b8\'c5\'b0\'b3\'ba\'af\'bc\'f6\'b4\'c2 \'b9\'de\'be\'c6\'bf\'c2 \'b5\'a5\'c0\'cc\'c5\'cd\'c0\'ce\'b5\'a5 json\'c0\'c7 \'b0\'e6\'bf\'ec\'b4\'c2 \'c6\'c4\'bd\'cc\'b5\'c8 \'b0\'e1\'b0\'fa\
+error : \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6 \'b0\'a1\'c1\'ae\'bf\'c0\'c1\'f6 \'b8\'f8\'c7\'df\'c0\'bb \'b6\'a7 \'c8\'a3\'c3\'e2\'b5\'c9 \'c7\'d4\'bc\'f6\'b8\'a6 \'c1\'f6\'c1\'a4 - \'b8\'c5\'b0\'b3\'ba\'af\'bc\'f6\'b0\'a1 3\'b0\'b3\'c0\'cc\'b0\'ed 2\'b9\'f8\'c2\'b0 \'b8\'c5\'b0\'b3\'ba\'af\'bc\'f6\'b0\'a1 \'bf\'a1\'b7\'af\'b9\'df\'bb\'fd\'c0\'cc\'c0\'af\'b8\'a6 \'b9\'ae\'c0\'da\'bf\'ad\'b7\'ce \'c0\'fc\'b4\'de\
+\
+=>\'c6\'c4\'b6\'f3\'b9\'cc\'c5\'cd\'b8\'a6 \'b8\'b8\'b5\'e9 \'b6\'a7 url\'bf\'a1 \'b8\'b8\'b5\'e9 \'b6\'a7\'b4\'c2 \'c1\'f7\'c1\'a2 \'c0\'ce\'c4\'da\'b5\'f9\'c0\'bb \'c7\'d8\'be\'df \'c7\'cf\'c1\'f6\'b8\'b8 data\'bf\'a1 \'bc\'b3\'c1\'a4\'c7\'cf\'b8\'e9 \'c0\'ce\'c4\'da\'b5\'f9\'c0\'bb \'c7\'cf\'c1\'f6 \'be\'ca\'be\'c6\'b5\'b5 \'c0\'da\'b5\'bf\'c0\'b8\'b7\'ce \'c7\'d8\'c1\'dd\'b4\'cf\'b4\'d9.\
+\
+\
+\
+**jquery \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2 \'c0\'cc\'c0\'af\
+1)cross browsing \'b1\'b8\'c7\'f6\'c0\'cc \'bd\'b1\'b1\'e2 \'b6\'a7\'b9\'ae\
+\
+2)\'b4\'d9\'be\'e7\'c7\'d1 \'c7\'c3\'b7\'af\'b1\'d7\'c0\'ce \'b6\'a7\'b9\'ae\'bf\'a1\
+\
+\
+\
+\
+\
+***Java Web Programming \'c0\'bb \'c7\'cf\'b1\'e2 \'c0\'a7\'c7\'d1 \'c1\'d8\'ba\'f1\
+1.JDK(Java Development Kit - \'c0\'da\'b9\'d9 \'b0\'b3\'b9\'df \'b5\'b5\'b1\'b8)\'b8\'a6 \'bc\'b3\'c4\'a1\
+=>\'bf\'c0\'b6\'f3\'c5\'ac\'bf\'a1\'bc\'ad \'b4\'d9\'bf\'ee\'b7\'ce\'b5\'e5 \'b9\'de\'be\'c6\'bc\'ad \'bc\'b3\'c4\'a1\
+=>Open JDK\'b8\'a6 \'b9\'de\'be\'c6\'bc\'ad \'bc\'b3\'c4\'a1\
+\
+1)JAVA_HOME \'c8\'af\'b0\'e6 \'ba\'af\'bc\'f6\'b8\'a6 \'c3\'df\'b0\'a1\
+=>java \'bc\'b3\'c4\'a1 \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\'b8\'a6 \'b0\'a3\'b7\'ab\'c7\'cf\'b0\'d4 \'bb\'e7\'bf\'eb\'c7\'d2 \'bc\'f6 \'c0\'d6\'b5\'b5\'b7\'cf \'c7\'cf\'b1\'e2 \'c0\'a7\'c7\'d8\'bc\'ad \'b5\'ee\'b7\'cf\
+\
+2)path\'b6\'f3\'b4\'c2 \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\'bf\'a1 jdk\'c0\'c7 bin \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae \'b0\'e6\'b7\'ce\'b8\'a6 \'c3\'df\'b0\'a1\
+=>java \'b8\'ed\'b7\'c9\'be\'ee\'b8\'a6 \'c2\'aa\'b0\'d4 \'b8\'ed\'b7\'c9\'be\'ee\'b8\'b8\'c0\'b8\'b7\'ce \'c4\'dc\'bc\'d6\'c0\'cc\'b3\'aa \'c5\'cd\'b9\'cc\'b3\'ce\'bf\'a1\'bc\'ad \'bb\'e7\'bf\'eb\'c7\'cf\'b1\'e2 \'c0\'a7\'c7\'d8\'bc\'ad \'bc\'b3\'c1\'a4\
+=>mac \'bf\'a1\'bc\'ad\'b4\'c2 \'c7\'d2 \'c7\'ca\'bf\'e4 \'be\'f8\'c0\'bd\
+=>mac \'c0\'ba \'c0\'da\'b9\'d9\'b8\'a6 \'bc\'b3\'c4\'a1\'c7\'cf\'b8\'e9 \'c0\'da\'b9\'d9\'c0\'c7 \'b8\'ed\'b7\'c9\'be\'ee \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\'b8\'a6 path\'bf\'a1 \'c0\'da\'b5\'bf \'c3\'df\'b0\'a1\
+\
+3)URE_HOME \'c0\'cc\'b6\'f3\'b4\'c2 \'c8\'af\'b0\'e6 \'ba\'af\'bc\'f6\'b8\'a6 \'c3\'df\'b0\'a1\'c7\'cf\'b0\'ed JRE \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae \'b0\'e6\'b7\'ce\'b8\'a6 \'c3\'df\'b0\'a1\
+=>\'c0\'da\'b9\'d9\'b7\'ce \'b8\'b8\'b5\'e9\'be\'ee\'c1\'f8 \'c7\'c1\'b7\'ce\'b1\'d7\'b7\'a5\'c0\'cc \'c0\'da\'b9\'d9\'bd\'c7\'c7\'e0\'c8\'af\'b0\'e6 \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\'b8\'a6 \'c3\'a3\'b1\'e2 \'c0\'a7\'c7\'d8\'bc\'ad \'bc\'b3\'c1\'a4\
+=>\'b4\'eb\'ba\'ce\'ba\'d0\'c0\'c7 \'b0\'e6\'bf\'ec\'b4\'c2 \'bc\'b3\'c1\'a4\'c0\'bb \'c7\'cf\'c1\'f6 \'be\'ca\'be\'c6\'b5\'b5 \'b5\'c7\'b4\'c2\'b5\'a5 \'c0\'da\'b9\'d9\'b8\'a6 \'bf\'a9\'b7\'af\'b0\'b3 \'bc\'b3\'c4\'a1\'c7\'d1 \'b0\'e6\'bf\'ec \'be\'ee\'b6\'b2 \'b9\'f6\'c0\'fc\'bf\'a1\'bc\'ad \'bd\'c7\'c7\'e0\'c7\'d1 \'b0\'cd\'c0\'ce\'c1\'f6 \'c1\'f6\'c1\'a4\'c7\'d2 \'b6\'a7 \'bb\'e7\'bf\'eb\
+\
+4)classpath\'b6\'f3\'b4\'c2 \'c8\'af\'b0\'e6 \'ba\'af\'bc\'f6\'b8\'a6 \'c3\'df\'b0\'a1\'c7\'cf\'b0\'ed \'b0\'e6\'b7\'ce\'b8\'a6 \'c3\'df\'b0\'a1\
+=>\'c0\'da\'b9\'d9 \'c7\'c1\'b7\'ce\'b1\'d7\'b7\'a5\'c0\'cc \'c5\'ac\'b7\'a1\'bd\'ba\'b8\'a6 \'c3\'a3\'b4\'c2 \'bc\'f8\'bc\'ad\'c0\'d4\'b4\'cf\'b4\'d9.\
+=> ./java \'c6\'c4\'c0\'cf \'b0\'e6\'b7\'ce  ...\
+\
+\
+2.IDE(\'c5\'eb\'c7\'d5 \'b0\'b3\'b9\'df \'b5\'b5\'b1\'b8)\'b8\'a6 \'bc\'b3\'c4\'a1\
+1)Eclipse : \'b9\'ab\'b7\'e1\
+=>Java EE \'b9\'f6\'c0\'fc\'c0\'b8\'b7\'ce \'bc\'b3\'c4\'a1\'c7\'d8\'be\'df \'c0\'a5 \'c7\'c1\'b7\'ce\'b1\'d7\'b7\'a1\'b9\'d6\'c0\'bb \'c7\'d2 \'bc\'f6 \'c0\'d6\'c0\'bd\
+=>STS(Spring Tool Suite), \'c0\'fc\'c0\'da\'c1\'a4\'ba\'ce\'c7\'c1\'b7\'b9\'c0\'d3\'bf\'f6\'c5\'a9 \'b5\'ee\'c0\'ba \'c0\'fc\'ba\'ce Eclipse \'b1\'e2\'b9\'dd\
+=>\'b4\'d9\'be\'e7\'c7\'d1 \'c7\'c3\'b7\'af\'b1\'d7\'c0\'ce \'c1\'f6\'bf\'f8\
+\
+2)Intelli J\
+=>\'b9\'ab\'b7\'e1 \'b9\'f6\'c0\'fc\'c0\'b8\'b7\'ce\'b4\'c2 \'c0\'da\'b9\'d9 \'b0\'b3\'b9\'df\'b0\'fa \'be\'c8\'b5\'e5\'b7\'ce\'c0\'cc\'b5\'e5 \'b0\'b3\'b9\'df\'b8\'b8 \'b0\'a1\'b4\'c9\
+=>\'bb\'f3\'bf\'eb\'c8\'ad\'b5\'c8 \'b9\'f6\'c0\'fc\'c0\'bb \'b1\'b8\'c0\'d4\'c7\'d8\'be\'df\'b8\'b8 \'c0\'a5 \'c7\'c1\'b7\'ce\'b1\'d7\'b7\'a1\'b9\'d6\'c0\'cc \'b0\'a1\'b4\'c9\
+=>\'c4\'da\'b5\'e5 \'bc\'be\'bd\'ba \'b1\'e2\'b4\'c9\'c0\'cc\'b3\'aa \'c6\'c4\'b6\'f3\'b9\'cc\'c5\'cd \'bc\'b3\'c1\'a4 \'b5\'ee\'c0\'cc Eclipse \'ba\'b8\'b4\'d9 \'c0\'df \'b5\'c7\'be\'ee \'c0\'d6\'c0\'bd\
+=>\'c0\'fb\'c0\'ba \'b1\'d4\'b8\'f0\'c0\'c7 \'c7\'c1\'b7\'ce\'c1\'a7\'c6\'ae\'bf\'a1\'bc\'ad\'b4\'c2 \'bb\'e7\'bf\'eb \'ba\'f1\'c0\'b2\'c0\'cc \'b3\'f4\'be\'c6\'c1\'f6\'b0\'ed \'c0\'d6\'c0\'bd\
+\
+\
+3.Web Server\
+=>\'bb\'e7\'bf\'eb\'c0\'da\'b0\'a1 URL \'bf\'e4\'c3\'bb\'c0\'bb \'c7\'df\'c0\'bb \'b6\'a7 URL\'bf\'a1 \'c7\'d8\'b4\'e7\'c7\'cf\'b4\'c2 \'c4\'c4\'c6\'f7\'b3\'cd\'c6\'ae\'b8\'a6 \'c3\'a3\'be\'c6\'bc\'ad \'c0\'fc\'b4\'de\'c7\'d8\'c1\'d6\'b4\'c2 \'c7\'c1\'b7\'ce\'b1\'d7\'b7\'a5\
+=>HTML\'b8\'b8 \'c0\'fc\'bc\'db\'c0\'cc \'b0\'a1\'b4\'c9\
+=>Apache, Linux, IIS(Windows \'bf\'ee\'bf\'b5\'c3\'bc\'c1\'a6\'b8\'a6 \'b1\'e2\'b9\'dd\'c0\'b8\'b7\'ce \'b8\'b8\'b5\'e9\'be\'ee\'c1\'f8 \'c0\'a5 \'bc\'ad\'b9\'f6)\
+\
+\
+4.Web Application Server\
+=>web server\'b0\'a1 \'c8\'a3\'c3\'e2\'c7\'d8\'bc\'ad \'c0\'cf\'b9\'dd \'c7\'c1\'b7\'ce\'b1\'d7\'b7\'a1\'b9\'d6 \'be\'f0\'be\'ee\'b7\'ce \'b8\'b8\'b5\'e9\'be\'ee\'c1\'f8 \'c7\'c1\'b7\'ce\'b1\'d7\'b7\'a5\'c0\'bb \'bd\'c7\'c7\'e0\'c7\'cf\'b0\'ed \'b1\'d7 \'b0\'e1\'b0\'fa\'b8\'a6 HTML\'b7\'ce \'b4\'d9\'bd\'c3 webserver\'bf\'a1\'b0\'d4 \'c0\'fc\'b4\'de\'c7\'cf\'b4\'c2 \'c7\'c1\'b7\'ce\'b1\'d7\'b7\'a5\
+=>java \'c7\'d8\'bc\'ae\'c0\'cc \'b0\'a1\'b4\'c9\'c7\'d1 WAS : tomcat, weblogic, \'c1\'a6\'bf\'ec\'bd\'ba \'b5\'ee\
+\
+\
+5.Database\
+=>DB Server \'b3\'aa \'c1\'a2\'bc\'d3\'c7\'d2 \'bc\'f6 \'c0\'d6\'b4\'c2 \'b0\'e8\'c1\'a4\
+=>\'c1\'a2\'bc\'d3 \'c7\'c1\'b7\'ce\'b1\'d7\'b7\'a5\
+=>\'bf\'ec\'b8\'ae\'b4\'c2 DBeaver \'c0\'cc\'bf\'eb\'c7\'d8\'bc\'ad Oracle \'b0\'fa MySQL\'c0\'bb \'bb\'e7\'bf\'eb\
+=>MongoDB\'b4\'c2 \'c1\'f7\'c1\'a2 \'bc\'b3\'c4\'a1\'c7\'cf\'b0\'c5\'b3\'aa \'c1\'a2\'bc\'d3\'b5\'b5\'b1\'b8\'b8\'a6 \'c0\'cc\'bf\'eb\'c7\'d8\'bc\'ad \'bb\'e7\'bf\'eb\
+\
+\
+\
+**Eclipse \'bc\'b3\'c1\'a4\
+=>Mac\'bf\'a1\'bc\'ad\'b4\'c2 \'ba\'ea\'b6\'f3\'bf\'ec\'c0\'fa \'bc\'b3\'c1\'a4\'b8\'b8 \'c7\'cf\'b8\'e9 \'b5\'cb\'b4\'cf\'b4\'d9.\
+=>window\'bf\'a1\'bc\'ad\'b4\'c2 \'bc\'b3\'c1\'a4\'c0\'bb \'c1\'b6\'b1\'dd \'c3\'df\'b0\'a1\'c7\'d8\'be\'df \'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+1)\'ba\'ea\'b6\'f3\'bf\'ec\'c0\'fa\'b8\'a6 \'bf\'dc\'ba\'ce \'ba\'ea\'b6\'f3\'bf\'ec\'c0\'fa\'b8\'a6 \'bc\'b3\'c1\'a4\
+=>eclipse \'b3\'bb\'c0\'e5 \'ba\'ea\'b6\'f3\'bf\'ec\'c0\'fa\'b4\'c2 IE \'c7\'cf\'c0\'a7 \'b9\'f6\'c0\'fc\'b0\'fa \'c0\'af\'bb\'e7\'c7\'cf\'b0\'d4 \'b5\'bf\'c0\'db\
+\
+2)text file encoding \'bc\'b3\'c1\'a4\
+=>\'bc\'d2\'bd\'ba\'c4\'da\'b5\'e5\'c0\'c7 \'c0\'ce\'c4\'da\'b5\'f9 \'bc\'b3\'c1\'a4\
+=>windows \'bf\'cd mac \'bf\'a1\'bc\'ad \'b0\'b0\'c0\'cc \'bb\'e7\'bf\'eb\'c7\'cf\'b0\'ed\'c0\'da \'c7\'d2 \'b6\'a7\'b4\'c2 utf-8\
+=>utf-8 \'b7\'ce \'bc\'b3\'c1\'a4\'c7\'cf\'c1\'f6 \'be\'ca\'c0\'b8\'b8\'e9 \'c0\'a5\'bf\'a1\'bc\'ad \'c1\'a6\'b4\'eb\'b7\'ce \'c0\'d0\'be\'ee \'b3\'bb\'c1\'f6 \'b8\'f8\'c7\'d2 \'bc\'f6 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9.\
+\
+3)css, html, jsp \'c6\'c4\'c0\'cf\'c0\'c7 encoding \'bc\'b3\'c1\'a4\
+\
+\
+\
+**HttpServlet & JSP(Java Server Pages)\
+1.HttpServlet\
+=>URL\'c0\'bb \'c0\'cc\'bf\'eb\'c7\'d8\'bc\'ad \'c8\'a3\'c3\'e2\'c7\'d2 \'bc\'f6 \'c0\'d6\'b4\'c2 Java Class\
+=>\'c4\'c4\'c6\'c4\'c0\'cf\'c0\'cc \'b5\'c8 .class \'c7\'fc\'c5\'c2\'b7\'ce \'c1\'b8\'c0\'e7\'c7\'cf\'b4\'d9\'b0\'a1 \'c3\'b9\'b9\'f8\'c2\'b0 \'bf\'e4\'c3\'bb\'c0\'cc \'bf\'c0\'b8\'e9 Instance\'b8\'a6 \'bb\'fd\'bc\'ba\'c7\'cf\'b0\'ed \'bf\'e4\'c3\'bb\'c0\'bb \'c3\'b3\'b8\'ae\
+\'c0\'cc \'c0\'ce\'bd\'ba\'c5\'cf\'bd\'ba\'b4\'c2 \'bc\'d2\'b8\'ea\'b5\'c7\'c1\'f6 \'be\'ca\'b0\'ed \'b0\'e8\'bc\'d3 \'c0\'e7\'bb\'e7\'bf\'eb\
+\'bf\'a9\'b7\'af \'b0\'b3\'c0\'c7 \'bf\'e4\'c3\'bb\'c0\'cc \'bf\'c0\'b4\'f5\'b6\'f3\'b5\'b5 1\'b0\'b3\'b8\'b8 \'b0\'a1\'c1\'f6\'b0\'ed \'c3\'b3\'b8\'ae\
+=>\'bc\'f6\'c1\'a4\'c0\'bb \'c7\'cf\'b8\'e9 \'c4\'c4\'c6\'c4\'c0\'cf\'c0\'bb \'b4\'d9\'bd\'c3\'c7\'d8\'bc\'ad \'bd\'c7\'c7\'e0\'bd\'c3\'c4\'d1\'be\'df \'c7\'d5\'b4\'cf\'b4\'d9.\
+=>HTML \'c3\'e2\'b7\'c2\'c0\'cc \'b0\'a1\'b4\'c9\'c7\'d1\'b5\'a5 \'c0\'da\'b9\'d9 \'c4\'da\'b5\'e5\'b8\'a6 \'c0\'cc\'bf\'eb\'c7\'d8\'bc\'ad \'c3\'e2\'b7\'c2\
+\
+\
+2.JSP\
+=>HttpServlet \'c0\'bb \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2 \'b0\'cd\'c0\'cc \'be\'ee\'b7\'c1\'bf\'f6\'bc\'ad HTML \'c5\'c2\'b1\'d7 \'be\'c8\'bf\'a1 \'c0\'da\'b9\'d9\'c4\'da\'b5\'e5\'b8\'a6 \'bb\'f0\'c0\'d4\'c7\'d2 \'bc\'f6 \'c0\'d6\'b4\'c2 \'b1\'b8\'c1\'b6\'b7\'ce \'b8\'b8\'b5\'e9\'be\'ee\'c1\'d8 \'b0\'cd\
+=>\'bc\'d2\'bd\'ba \'c4\'da\'b5\'e5 \'c7\'fc\'c5\'c2\'b7\'ce \'c1\'b8\'c0\'e7\'c7\'cf\'b4\'d9\'b0\'a1 URL \'bf\'e4\'c3\'bb\'c0\'cc \'bf\'c0\'b8\'e9 HttpServlet \'c5\'ac\'b7\'a1\'bd\'ba\'b7\'ce \'ba\'af\'c8\'af\'b5\'c8 \'c8\'c4 Instance \'b8\'a6 \'bb\'fd\'bc\'ba\'c7\'cf\'b0\'ed \'bf\'e4\'c3\'bb\'c0\'bb \'c3\'b3\'b8\'ae\
+\'c0\'cc \'c0\'ce\'bd\'ba\'c5\'cf\'bd\'ba\'b4\'c2 \'bf\'e4\'c3\'bb\'c0\'bb \'c3\'b3\'b8\'ae\'c7\'cf\'b4\'c2 \'b0\'cd\'c0\'cc \'c1\'be\'b7\'e1\'b5\'c7\'b8\'e9 \'c5\'ac\'b7\'a1\'bd\'ba\'bf\'cd \'c7\'d4\'b2\'b2 \'bc\'d2\'b8\'ea\'b5\'cb\'b4\'cf\'b4\'d9.\
+=>\'bc\'f6\'c1\'a4\'c0\'bb \'c7\'cf\'b0\'ed \'c0\'fa\'c0\'e5\'c0\'bb \'c7\'cf\'b8\'e9 \'c4\'c4\'c6\'c4\'c0\'cf\'c0\'bb \'b4\'d9\'bd\'c3 \'c7\'d2 \'c7\'ca\'bf\'e4\'b0\'a1 \'be\'f8\'bd\'c0\'b4\'cf\'b4\'d9.\
+\'bb\'f5\'b7\'ce \'b0\'ed\'c4\'a7\'b8\'b8 \'c7\'cf\'b8\'e9 \'b5\'cb\'b4\'cf\'b4\'d9.\
+=>HTML\'c0\'bb \'c0\'db\'bc\'ba\'c7\'cf\'b4\'c2 \'b0\'cd\'c0\'ba \'c6\'ed\'b8\'ae\'c7\'cf\'c1\'f6\'b8\'b8 \'c0\'da\'b9\'d9\'c4\'da\'b5\'e5\'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2 \'b0\'cd\'c0\'ba Servlet \'ba\'b8\'b4\'d9 \'ba\'d2\'c6\'ed\'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+\
+3.Model 2 Pattern\
+=>\'c3\'b3\'b8\'ae\'c7\'cf\'b4\'c2 \'b7\'ce\'c1\'f7\'c0\'ba Servelt\'bf\'a1 \'c0\'db\'bc\'ba\'c7\'cf\'b0\'ed \'c3\'e2\'b7\'c2\'c7\'cf\'b4\'c2 \'b7\'ce\'c1\'f7\'c0\'ba JSP\'bf\'a1 \'c0\'db\'bc\'ba\'c7\'d8\'bc\'ad \'b8\'f0\'b5\'e2 \'ba\'b0\'b7\'ce \'bf\'aa\'c7\'d2\'c0\'bb \'ba\'d0\'b8\'ae\'c7\'d8\'bc\'ad \'b1\'b8\'c7\'f6\'c7\'cf\'c0\'da\'b4\'c2 \'c6\'d0\'c5\'cf\
+=>\'b8\'f0\'b5\'e2 \'ba\'b0\'b7\'ce \'ba\'d0\'b8\'ae\'b8\'a6 \'c7\'cf\'b8\'e9 \'c0\'af\'c1\'f6\'ba\'b8\'bc\'f6\'bf\'a1 \'c0\'af\'b8\'ae\
+=>\'c0\'cc \'b4\'dc\'be\'ee\'b4\'c2 Java\'bf\'a1\'b8\'b8 \'c7\'d8\'b4\'e7\'c7\'cf\'b4\'c2 \'b0\'cd\'c0\'cc \'be\'c6\'b4\'cf\'b0\'ed \'b4\'d9\'b8\'a5 \'c0\'a5 \'c7\'c1\'b7\'ce\'b1\'d7\'b7\'a1\'b9\'d6\'bf\'a1\'bc\'ad\'b5\'b5 \'b1\'d7\'b4\'eb\'b7\'ce \'c0\'fb\'bf\'eb\
+\
+\
+**Java Web Project\
+1.\'bb\'fd\'bc\'ba\
+=>Dynamic Web Project \'b8\'a6 \'bb\'fd\'bc\'ba\
+1)\'c3\'b9\'b9\'f8\'c2\'b0 \'c8\'ad\'b8\'e9\
+=>\'c7\'c1\'b7\'ce\'c1\'a7\'c6\'ae \'c0\'cc\'b8\'a7\
+=>\'c7\'c1\'b7\'ce\'c1\'a7\'c6\'ae \'c0\'a7\'c4\'a1\
+=>\'bd\'c7\'c7\'e0\'b5\'c7\'b4\'c2 WAS \'b9\'f6\'c0\'fc \'bc\'b3\'c1\'a4 - Target Runtime : \'bd\'c7\'c7\'e0\'c7\'d2 \'b6\'a7 \'bc\'b3\'c1\'a4\'c7\'d8\'b5\'b5 \'b5\'ca\
+=>Dynamic Web Module - \'bc\'ad\'ba\'ed\'b8\'b4 \'b9\'f6\'c0\'fc \'bc\'b3\'c1\'a4\
+\'bc\'b3\'c4\'a1\'b5\'c7\'be\'ee \'c0\'d6\'b4\'c2 WAS\'b0\'a1 \'c1\'f6\'bf\'f8\'c7\'cf\'c1\'f6 \'be\'ca\'b4\'c2 \'bb\'f3\'c0\'a7 \'b9\'f6\'c0\'fc\'c0\'bb \'bc\'b3\'c1\'a4\'c7\'cf\'b8\'e9 \'bd\'c7\'c7\'e0\'c0\'cc \'be\'c8\'b5\'cb\'b4\'cf\'b4\'d9.\
+\
+2)\'b5\'ce\'b9\'f8\'c2\'b0 \'c8\'ad\'b8\'e9 \
+=>java source \'c6\'c4\'c0\'cf \'c0\'a7\'c4\'a1 \'bc\'b3\'c1\'a4\
+\'bf\'a9\'b1\'e2\'bc\'ad \'bc\'b3\'c1\'a4\'c7\'d1 \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\'bf\'a1 java \'c6\'c4\'c0\'cf\'c0\'cc \'c0\'a7\'c4\'a1\'c7\'d8\'be\'df \'c4\'c4\'c6\'c4\'c0\'cf\'b5\'c7\'bc\'ad class \'b7\'ce \'b8\'b8\'b5\'e9\'be\'ee \'c1\'fd\'b4\'cf\'b4\'d9.\
+=>class\'c6\'c4\'c0\'cf\'c0\'c7 \'c0\'a7\'c4\'a1 \'bc\'b3\'c1\'a4\
+\
+3)\'bc\'bc\'b9\'f8\'c2\'b0 \'c8\'ad\'b8\'e9\
+=>\'bd\'c3\'c0\'db \'b0\'e6\'b7\'ce \'b9\'d7 java \'c6\'c4\'c0\'cf\'c0\'bb \'c1\'a6\'bf\'dc\'c7\'d1 \'c6\'c4\'c0\'cf\'b5\'e9\'c0\'c7 \'c0\'a7\'c4\'a1\'b8\'a6 \'bc\'b3\'c1\'a4\
+=>web.xml \'c0\'bb \'c7\'c1\'b7\'ce\'c1\'a7\'c6\'ae\'bf\'a1 \'bb\'fd\'bc\'ba\'c7\'d8 \'c1\'d9 \'c1\'f6 \'bf\'a9\'ba\'ce\'b8\'a6 \'bc\'b3\'c1\'a4 : \'b5\'c7\'b5\'b5\'b7\'cf\'c0\'cc\'b8\'e9 \'c3\'bc\'c5\'a9\
+\
+\
+2.jsp \'c6\'c4\'c0\'cf\'c0\'bb \'c3\'df\'b0\'a1\'c7\'cf\'b0\'ed \'bd\'c7\'c7\'e0\
+=>jsp \'c6\'c4\'c0\'cf\'c0\'ba WebContent \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae \'c7\'cf\'c0\'a7\'bf\'a1 \'c0\'db\'bc\'ba\'b5\'c7\'be\'ee\'be\'df \'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+\
+3.Tomcat\'c0\'bb \'c0\'cc\'bf\'eb\'c7\'d8\'bc\'ad \'bd\'c7\'c7\'e0\'c7\'d2 \'b6\'a7 \'b9\'df\'bb\'fd\'c7\'cf\'b4\'c2 \'bf\'a1\'b7\'af\
+1)\'c7\'c1\'b7\'ce\'c1\'a7\'c6\'ae \'bc\'b3\'c1\'a4 \'c6\'c4\'c0\'cf\'bf\'a1 \'b9\'ae\'c1\'a6\'b0\'a1 \'b9\'df\'bb\'fd\'c7\'d8\'bc\'ad \'bd\'c7\'c7\'e0\'c0\'cc \'be\'c8\'b5\'c7\'b4\'c2 \'b0\'e6\'bf\'ec\
+=>server.xml \'c0\'cc\'b3\'aa web.xml \'c6\'c4\'c0\'cf\'c0\'bb \'c8\'ae\'c0\'ce\
+\
+2)\'c6\'f7\'c6\'ae \'c3\'e6\'b5\'b9 \'b9\'ae\'c1\'a6\
+=>\'c0\'cc\'b9\'cc \'c5\'e8\'c4\'b9\'c0\'cc \'bd\'c7\'c7\'e0 \'c1\'df\'c0\'cc\'be\'ee\'bc\'ad \'bd\'c7\'c7\'e0\'c0\'cc \'be\'c8\'b5\'c9 \'bc\'f6 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9.\
+\'c0\'a9\'b5\'b5\'bf\'ec\'bf\'a1\'bc\'ad \'c0\'da\'c1\'d6 \'b9\'df\'bb\'fd \
+\'c0\'db\'be\'f7\'b0\'fc\'b8\'ae\'c0\'da\'b8\'a6 \'bd\'c7\'c7\'e0\'c7\'d8\'bc\'ad tomcat\'c0\'cc\'b3\'aa java \'bc\'ad\'ba\'f1\'bd\'ba\'b8\'a6 \'b8\'f0\'b5\'ce \'c1\'df\'c1\'f6\'c7\'cf\'b0\'ed \'b4\'d9\'bd\'c3 \'bd\'c7\'c7\'e0\
+\
+\
+=>\'bf\'c0\'b6\'f3\'c5\'ac\'c0\'cc \'bc\'b3\'c4\'a1\'b5\'c7\'be\'ee \'c0\'d6\'b4\'c2 \'b0\'e6\'bf\'ec \'bf\'c0\'b6\'f3\'c5\'ac\'c0\'cc 8080 \'c6\'f7\'c6\'ae\'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'cf\'b1\'e2 \'b6\'a7\'b9\'ae\'bf\'a1 \'c6\'f7\'c6\'ae \'c3\'e6\'b5\'b9\'c0\'cc \'b9\'df\'bb\'fd\'c7\'d8\'bc\'ad \'bd\'c7\'c7\'e0\'c0\'cc \'be\'c8\'b5\'c9 \'bc\'f6 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9.\
+\'c0\'cc \'b6\'a7\'b4\'c2 \'c5\'e8\'c4\'b9\'c0\'c7 \'bd\'c7\'c7\'e0 \'c6\'f7\'c6\'ae\'b8\'a6 \'ba\'af\'b0\'e6\'c7\'d8\'c1\'d6\'b8\'e9 \'b5\'cb\'b4\'cf\'b4\'d9.\
+\
+=>\'c5\'e8\'c4\'b9\'c0\'c7 \'bd\'c7\'c7\'e0\'c6\'f7\'c6\'ae \'ba\'af\'b0\'e6\'c0\'ba \'c7\'f6\'c0\'e7 \'bf\'f6\'c5\'a9\'bd\'ba\'c6\'e4\'c0\'cc\'bd\'ba\'c0\'c7 Servers \'b6\'f3\'b4\'c2 \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\'c0\'c7 server.xml \'c6\'c4\'c0\'cf\'bf\'a1\'bc\'ad \'bc\'f6\'c7\'e0\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs24 \cf2 <\cf3 Connector\cf0  \cf4 connectionTimeout\cf0 =
+\f3\i \cf5 "20000"
+\f2\i0 \cf0  \cf4 port\cf0 =
+\f3\i \cf5 "8080"
+\f2\i0 \cf0  \cf4 protocol\cf0 =
+\f3\i \cf5 "HTTP/1.1"
+\f2\i0 \cf0  \cf4 redirectPort\cf0 =
+\f3\i \cf5 "8443"
+\f2\i0 \cf2 />
+\f1\fs36 \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\'c0\'a7\'c0\'c7 \'c4\'da\'b5\'e5\'bf\'a1\'bc\'ad port=8080 \'ba\'ce\'ba\'d0\'c0\'bb \'b4\'d9\'b8\'a5 \'b9\'f8\'c8\'a3\'b7\'ce \'bc\'f6\'c1\'a4\
+\
+3)jsp \'c6\'c4\'c0\'cf\'c0\'bb \'bb\'fd\'bc\'ba\'c0\'bb \'c7\'cf\'b8\'e9 \'b8\'c7 \'c0\'ad \'c1\'d9\'bf\'a1 \'bf\'a1\'b7\'af \'c7\'a5\'bd\'c3\'b0\'a1 \'b9\'df\'bb\'fd\
+=>\'bd\'c7\'c7\'e0\'c7\'cf\'b4\'c2\'b5\'a5\'b4\'c2 \'be\'c6\'b9\'ab\'b7\'b1 \'c1\'f6\'c0\'e5\'c0\'cc \'be\'f8\'b4\'c2\'b5\'a5 jsp \'c6\'c4\'c0\'cf\'c0\'bb servlet\'c0\'b8\'b7\'ce \'ba\'af\'c8\'af\'c7\'cf\'b7\'c1\'b8\'e9 HttpServlet \'c5\'ac\'b7\'a1\'bd\'ba\'b0\'a1 \'c0\'d6\'be\'ee\'be\'df \'c7\'cf\'b4\'c2\'b5\'a5 java SE \'b9\'f6\'c0\'fc\'bf\'a1\'bc\'ad\'b4\'c2 HttpServlet \'c5\'ac\'b7\'a1\'bd\'ba\'b0\'a1 \'be\'f8\'be\'ee\'bc\'ad \'b9\'df\'bb\'fd\'c7\'cf\'b4\'c2 \'c7\'f6\'bb\'f3\
+=>\'bd\'c7\'c7\'e0\'c7\'d2 \'b6\'a7 \'c5\'e8\'c4\'b9\'bf\'a1\'b4\'c2 \'c0\'cc \'c5\'ac\'b7\'a1\'bd\'ba\'b0\'a1 \'c0\'d6\'be\'ee\'bc\'ad \'bd\'c7\'c7\'e0\'c0\'ba \'b9\'ae\'c1\'a6\'be\'f8\'c0\'cc \'b5\'cb\'b4\'cf\'b4\'d9.\
+=>\'bf\'a1\'b7\'af \'c7\'a5\'bd\'c3\'b8\'a6 \'be\'f8\'be\'d6\'b0\'ed\'c0\'da \'c7\'d2 \'b6\'a7\'b4\'c2 \'c5\'e8\'c4\'b9\'c0\'c7 lib \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\'bf\'a1 \'c0\'d6\'b4\'c2 servlet-api.jar \'c6\'c4\'c0\'cf\'c0\'bb \'c7\'c1\'b7\'ce\'c1\'a7\'c6\'ae\'c0\'c7 WebContent/WEB-INF/lib \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\'bf\'a1 \'ba\'b9\'bb\'e7\'c7\'d8\'c1\'d6\'b8\'e9 \'b5\'cb\'b4\'cf\'b4\'d9.\
+\
+\
+4.Servlet\'c0\'bb \'b8\'b8\'b5\'e9\'b0\'ed \'bd\'c7\'c7\'e0\
+=>\'bc\'ad\'ba\'ed\'b8\'b4\'c0\'ba java \'c6\'c4\'c0\'cf\'c0\'cc\'b9\'c7\'b7\'ce src \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\'bf\'a1 \'bb\'fd\'bc\'ba\
+1)Servlet \'c5\'ac\'b7\'a1\'bd\'ba\'b4\'c2 HttpServlet \'c5\'ac\'b7\'a1\'bd\'ba\'b7\'ce\'ba\'ce\'c5\'cd \'bb\'f3\'bc\'d3\'b9\'de\'c0\'b8\'b8\'e9 \'b5\'cb\'b4\'cf\'b4\'d9.\
+\
+2)\'b5\'ce\'b9\'f8\'c2\'b0 \'c8\'ad\'b8\'e9\'bf\'a1\'bc\'ad URL Mapping \'ba\'ce\'ba\'d0\'bf\'a1 \'c8\'a3\'c3\'e2\'c7\'d2 URL\'c0\'bb \'bc\'b3\'c1\'a4\
+\'b1\'e2\'ba\'bb\'c0\'ba /\'c5\'ac\'b7\'a1\'bd\'ba\'c0\'cc\'b8\'a7 - http://localhost:\'c6\'f7\'c6\'ae\'b9\'f8\'c8\'a3/\'c7\'c1\'b7\'ce\'c1\'a7\'c6\'ae\'c0\'cc\'b8\'a7/\'c5\'ac\'b7\'a1\'bd\'ba\'c0\'cc\'b8\'a7 \'c0\'b8\'b7\'ce \'c8\'a3\'c3\'e2\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 http://localhost:\'c6\'f7\'c6\'ae\'b9\'f8\'c8\'a3/\'c7\'c1\'b7\'ce\'c1\'a7\'c6\'ae\'c0\'cc\'b8\'a7/\'c5\'ac\'b7\'a1\'bd\'ba\'c0\'cc\'b8\'a7 \'c0\'ba \'b9\'e8\'c6\'f7\'b8\'a6 \'c7\'d2 \'b6\'a7 \'b5\'b5\'b8\'de\'c0\'ce\'c0\'b8\'b7\'ce \'c4\'a1\'c8\'af\'b5\'cb\'b4\'cf\'b4\'d9.\
+\'c1\'d6\'bc\'d2\'b8\'a6 \'ba\'af\'b0\'e6\'c7\'cf\'b0\'c5\'b3\'aa \'c3\'df\'b0\'a1\'c7\'d2 \'bc\'f6 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9.\
+\'b4\'eb\'ba\'ce\'ba\'d0\'c0\'ba \'ba\'af\'b0\'e6\'c0\'bb \'c7\'d5\'b4\'cf\'b4\'d9.\
+Camel \'c7\'a5\'b1\'e2\'b9\'fd\'bf\'a1 \'c0\'c7\'c7\'cf\'b8\'e9 \'c5\'ac\'b7\'a1\'bd\'ba \'c0\'cc\'b8\'a7\'c0\'c7 \'c3\'b9\'b1\'db\'c0\'da\'b4\'c2 \'b4\'eb\'b9\'ae\'c0\'da\'b7\'ce \'c7\'cf\'b6\'f3\'b0\'ed \'c7\'cf\'b0\'ed Rest API\'bf\'a1\'bc\'ad\'b4\'c2 \'b5\'b5\'b8\'de\'c0\'ce\'bf\'a1\'bc\'ad\'b4\'c2 \'b4\'eb\'b9\'ae\'c0\'da\'b8\'a6 \'c6\'f7\'c7\'d4\'bd\'c3\'c5\'b0\'c1\'f6 \'b8\'bb\'b6\'f3\'b0\'ed \'c7\'d5\'b4\'cf\'b4\'d9.\
+URL\'c0\'bb \'b8\'b8\'b5\'e9 \'b6\'a7\'b4\'c2 \'bc\'d2\'b9\'ae\'c0\'da \'bf\'cd \'bc\'fd\'c0\'da \'b9\'d7 \'c0\'cf\'ba\'ce \'c6\'af\'bc\'f6 \'b1\'e2\'c8\'a3\'b8\'b8 \'bb\'e7\'bf\'eb\
+\
+3)\'bc\'ad\'ba\'ed\'b8\'b4\'c0\'bb \'c8\'a3\'c3\'e2\
+=>\'bc\'ad\'b9\'f6\'b8\'a6 \'bd\'c7\'c7\'e0\'bd\'c3\'c5\'b0\'b0\'ed \'b8\'c5\'c7\'ce\'c0\'cc \'b5\'c7\'b4\'c2 \'c1\'d6\'bc\'d2\'b8\'a6 \'ba\'ea\'b6\'f3\'bf\'ec\'c0\'fa\'bf\'a1 \'c0\'d4\'b7\'c2\
+=>\'bc\'ad\'ba\'ed\'b8\'b4\'c0\'bb \'bd\'c7\'c7\'e0\'c7\'d2 \'b6\'a7\'b4\'c2 \'b9\'d9\'b7\'ce \'be\'c8\'b5\'c7\'b4\'c2 \'b0\'e6\'bf\'ec\'b0\'a1 \'c0\'d6\'c0\'b8\'b9\'c7\'b7\'ce \'bc\'ad\'b9\'f6\'b8\'a6 \'c1\'df\'c1\'f6\'bd\'c3\'c5\'b0\'b0\'ed \'b4\'d9\'bd\'c3 \'bd\'c7\'c7\'e0\'bd\'c3\'c5\'b0\'b4\'c2 \'b0\'cd\'c0\'cc \'c1\'c1\'bd\'c0\'b4\'cf\'b4\'d9.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\
+\
+**Dynamic Web project \'b1\'b8\'c1\'b6\
+1.java Resources/src\
+=>Compile\'b5\'c7\'be\'ee\'be\'df \'c7\'cf\'b4\'c2 \'c6\'c4\'c0\'cf\'c0\'cc \'c0\'a7\'c4\'a1\'c7\'cf\'b4\'c2 \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\
+=>java \'c6\'c4\'c0\'cf\'c0\'ba \'b9\'dd\'b5\'e5\'bd\'c3 \'c0\'cc \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\'bf\'a1 \'c0\'a7\'c4\'a1\'c7\'d8\'be\'df \'c7\'d5\'b4\'cf\'b4\'d9.\
+=>\'c4\'c4\'c6\'c4\'c0\'cf\'c7\'cf\'c1\'f6 \'be\'ca\'b4\'c2 xml \'c6\'c4\'c0\'cf \'b5\'ee\'c0\'cc \'c0\'a7\'c4\'a1\'c7\'d8\'b5\'b5 \'b5\'cb\'b4\'cf\'b4\'d9.\
+Java \'c0\'c7 Resources \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\'b4\'c2 WebContent \'bf\'cd \'b8\'c5\'c7\'ce\
+=>\'bd\'c7\'c7\'e0\'c0\'cc \'b5\'c7\'b8\'e9 \'c0\'cc \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\'b4\'c2 \'be\'f8\'be\'ee\'c1\'f6\'b0\'ed java \'c6\'c4\'c0\'cf\'b5\'e9\'c0\'ba WebContent/WEB-INF/classes \'b6\'f3\'b4\'c2 \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\'bf\'a1 class \'c6\'c4\'c0\'cf\'b7\'ce \'b4\'eb\'c3\'bc\'b5\'c7\'b0\'ed \'b1\'d7 \'c0\'cc\'bf\'dc\'c0\'c7 \'c6\'c4\'c0\'cf\'c0\'ba \'b7\'e7\'c6\'ae \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\'b7\'ce \'c0\'cc\'b5\'bf\
+\
+\
+2.WebContent\
+=>\'c4\'c4\'c6\'c4\'c0\'cf \'c7\'d2 \'c7\'ca\'bf\'e4\'b0\'a1 \'be\'f8\'b4\'c2 \'c6\'c4\'c0\'cf\'c0\'cc \'c0\'a7\'c4\'a1\'c7\'cf\'b4\'c2 \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\
+=>\'bd\'c7\'c7\'e0\'c7\'d2 \'b6\'a7\'b4\'c2 \'c0\'cc \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\'b0\'a1 \'be\'f8\'be\'ee\'c1\'f6\'b0\'ed \'b7\'e7\'c6\'ae \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\'b7\'ce \'ba\'af\'b0\'e6\'b5\'cb\'b4\'cf\'b4\'d9.\
+=>\'c7\'c1\'b7\'ce\'c1\'a7\'c6\'ae\'b8\'a6 \'bb\'fd\'bc\'ba\'c7\'cf\'b4\'c2 \'b9\'e6\'b9\'fd\'bf\'a1 \'b5\'fb\'b6\'f3\'bc\'ad \'c0\'cc \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\'b8\'a6 webapp \'c0\'cc\'b6\'f3\'b0\'ed\'b5\'b5 \'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+\
+3.WebContent/META-INF\
+=>\'bf\'dc\'ba\'ce \'c0\'da\'bf\'f8\'c0\'bb \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2 \'b0\'e6\'bf\'ec \'bf\'dc\'ba\'ce \'c0\'da\'bf\'f8\'bf\'a1 \'b4\'eb\'c7\'d1 \'c1\'a4\'ba\'b8\'b8\'a6 \'c0\'db\'bc\'ba\'c7\'cf\'b4\'c2 \'c6\'c4\'c0\'cf\'c0\'c7 \'c0\'a7\'c4\'a1\
+=>content.xml \'c6\'c4\'c0\'cf\'c0\'bb \'bb\'fd\'bc\'ba\'c7\'d8\'bc\'ad \'bf\'dc\'ba\'ce \'c0\'da\'bf\'f8\'bf\'a1 \'b4\'eb\'c7\'d1 \'b0\'e6\'b7\'ce\'b8\'a6 \'bc\'b3\'c1\'a4\
+=>\'c5\'d7\'bd\'ba\'c6\'ae \'c8\'af\'b0\'e6\'bf\'a1\'bc\'ad \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2 \'c0\'da\'bf\'f8\'b0\'fa \'b9\'e8\'c6\'f7 \'b6\'c7\'b4\'c2 \'bd\'c7\'c7\'e0\'c8\'af\'b0\'e6\'bf\'a1\'bc\'ad \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2 \'c0\'da\'bf\'f8\'c0\'cc \'bc\'ad\'b7\'ce \'b4\'d9\'b8\'a5 \'b0\'e6\'bf\'ec\'bf\'a1 \'c0\'cc \'c0\'da\'bf\'f8\'bf\'a1 \'b4\'eb\'c7\'d1 \'c1\'a4\'ba\'b8\'b4\'c2 \'bc\'d2\'bd\'ba \'c4\'da\'b5\'e5\'bf\'a1 \'c1\'f7\'c1\'a2 \'c0\'db\'bc\'ba\'c7\'cf\'c1\'f6 \'be\'ca\'b0\'ed \'ba\'b0\'b5\'b5\'c0\'c7 \'c6\'c4\'c0\'cf\'bf\'a1 \'b1\'e2\'b7\'cf\'c7\'d8\'b5\'ce\'b0\'ed \'c7\'ca\'bf\'e4\'c7\'cf\'b8\'e9 \'c6\'c4\'c0\'cf\'c0\'c7 \'b3\'bb\'bf\'eb\'c0\'bb \'ba\'af\'b0\'e6\'c7\'cf\'b5\'b5\'b7\'cf \'b8\'b8\'b5\'e5\'b4\'c2 \'b0\'cd\'c0\'cc \'c1\'c1\'bd\'c0\'b4\'cf\'b4\'d9.\
+\'c6\'c4\'c0\'cf \'b4\'eb\'bd\'c5\'bf\'a1 Database\'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2 \'b0\'cd\'b5\'b5 \'c1\'c1\'c0\'ba \'b9\'e6\'b9\'fd\'c0\'cc \'b5\'c9 \'bc\'f6 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9.\
+\
+\
+4.WebContent/WEB-INF\
+=>\'c0\'a5 \'be\'d6\'c7\'c3\'b8\'ae\'c4\'c9\'c0\'cc\'bc\'c7\'bf\'a1 \'b4\'eb\'c7\'d1 \'bc\'b3\'c1\'a4 \'c6\'c4\'c0\'cf(web.xml)\'c0\'cc \'c0\'a7\'c4\'a1\'c7\'cf\'b4\'c2 \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\
+\
+\
+5.WebContent/WEB-INF/lib\
+=>\'bf\'dc\'ba\'ce \'b6\'f3\'c0\'cc\'ba\'ea\'b7\'af\'b8\'ae \'c6\'c4\'c0\'cf\'c0\'cc \'c0\'a7\'c4\'a1\'c7\'d8\'be\'df \'c7\'cf\'b4\'c2 \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\
+=>Web Application\'bf\'a1\'bc\'ad\'b4\'c2 \'c0\'cc \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\'bf\'a1 \'c6\'c4\'c0\'cf\'c0\'cc \'c0\'a7\'c4\'a1\'c7\'cf\'b8\'e9 \'c0\'da\'b5\'bf\'c0\'b8\'b7\'ce build path\'bf\'a1 \'c3\'df\'b0\'a1\'b0\'a1 \'b5\'cb\'b4\'cf\'b4\'d9.\
+\
+\
+6.WebContent/WEB-INF/classes\
+=>\'c5\'ac\'b7\'a1\'bd\'ba \'c6\'c4\'c0\'cf\'b0\'fa \'c1\'f6\'bf\'aa\'c8\'ad \'b0\'fc\'b7\'c3\'b5\'c8 \'c6\'c4\'c0\'cf\'c0\'cc \'c0\'a7\'c4\'a1\'c7\'d8\'be\'df \'c7\'cf\'b4\'c2 \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\
+\
+\
+\
+**\'c5\'e8\'c4\'b9 \'b1\'e2\'b9\'dd\'c0\'c7 \'c7\'c1\'b7\'ce\'c1\'a7\'c6\'ae\'b0\'a1 \'bd\'c7\'c7\'e0\'b5\'c7\'b4\'c2 \'b1\'b8\'c1\'b6\
+=>Eclipse\'bf\'a1\'bc\'ad web project\'b8\'a6 \'b8\'b8\'b5\'e9\'be\'ee\'bc\'ad \'c5\'e8\'c4\'b9\'c0\'b8\'b7\'ce \'bd\'c7\'c7\'e0\'c0\'bb \'c7\'cf\'b8\'e9 \'bd\'c7\'c1\'a6\'b7\'ce\'b4\'c2 \
+\'bf\'f6\'c5\'a9\'bd\'ba\'c6\'e4\'c0\'cc\'bd\'ba/metadata/plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps \'b6\'f3\'b4\'c2 \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\'bf\'a1 \'bd\'c7\'c7\'e0 \'c6\'c4\'c0\'cf\'b5\'e9\'c0\'bb \'ba\'b9\'bb\'e7\'c7\'d8\'bc\'ad \'bd\'c7\'c7\'e0\
+tmp0\'b4\'c2 \'bc\'ad\'b9\'f6 \'bb\'fd\'bc\'ba \'c8\'bd\'bc\'f6\'bf\'a1 \'b5\'fb\'b6\'f3 tmp1, tmp2 \'b5\'ee\'c0\'b8\'b7\'ce \'ba\'af\'b0\'e6\'b5\'c9 \'bc\'f6 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9.\
+. \'c0\'cc \'ba\'d9\'c0\'ba \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\'b3\'aa \'c6\'c4\'c0\'cf\'c0\'ba linux, unix \'bf\'a1\'bc\'ad \'bc\'fb\'b1\'e8 \'c6\'c4\'c0\'cf\'c0\'d4\'b4\'cf\'b4\'d9.\
+shift+command(\'c0\'a9\'b5\'b5\'bf\'ec \'c5\'b0)+. \'c0\'bb \'b4\'a9\'b8\'a3\'b8\'e9 \'bc\'fb\'b1\'e8\'c6\'c4\'c0\'cf\'c0\'cc \'c6\'c4\'c0\'ce\'b4\'f5\'bf\'a1\'bc\'ad \'ba\'b8\'c0\'d4\'b4\'cf\'b4\'d9.\
+\
+=>\'c6\'c4\'c0\'cf \'be\'f7\'b7\'ce\'b5\'e5\'b0\'a1 \'c1\'a6\'b4\'eb\'b7\'ce \'b5\'c7\'b0\'ed \'c0\'d6\'b4\'c2\'c1\'f6 \'c8\'ae\'c0\'ce\'c7\'d2 \'b6\'a7\'b4\'c2 \'c0\'a7\'c0\'c7 \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\'bf\'a1\'bc\'ad \'c8\'ae\'c0\'ce\
+\
+\
+\
+**\'bc\'b3\'c1\'a4 \'c6\'c4\'c0\'cf\
+1.context.xml : \'bf\'dc\'ba\'ce \'c0\'da\'bf\'f8\'bf\'a1 \'b4\'eb\'c7\'d1 \'b0\'e6\'b7\'ce \'bc\'b3\'c1\'a4\'c0\'bb \'c0\'a7\'c7\'d1 \'c6\'c4\'c0\'cf\
+=>\'c7\'c1\'b7\'ce\'c1\'a7\'c6\'ae\'c0\'c7 META-INF \'bf\'a1 \'c0\'a7\'c4\'a1\'c7\'cf\'b4\'c2 \'b0\'cd\'c0\'cc \'c0\'cf\'b9\'dd\'c0\'fb\
+\
+\
+2.web.xml \'c0\'a5\'c7\'c1\'b7\'ce\'c1\'a7\'c6\'ae \'bc\'b3\'c1\'a4 \'c6\'c4\'c0\'cf\
+=>\'c7\'c1\'b7\'ce\'c1\'a7\'c6\'ae\'c0\'c7 WEB-INF \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\'bf\'a1 \'c0\'a7\'c4\'a1\
+\
+\
+3.server.xml : \'c5\'e8\'c4\'b9 \'bc\'b3\'c1\'a4 \'c6\'c4\'c0\'cf\
+=>Servers \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\'bf\'a1 \'c0\'a7\'c4\'a1\
+\
+\
+4.\'c0\'a7 3\'b0\'b3\'c0\'c7 \'bc\'b3\'c1\'a4 \'c6\'c4\'c0\'cf\'c0\'ba \'c7\'f6\'c0\'e7 \'bf\'f6\'c5\'a9\'bd\'ba\'c6\'e4\'c0\'cc\'bd\'ba\'bf\'a1 \'c3\'b3\'c0\'bd \'c5\'e8\'c4\'b9\'c0\'bb \'bf\'ac\'b5\'bf\'c7\'d2 \'b4\'eb \'c5\'e8\'c4\'b9\'c0\'c7 conf \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\'bf\'a1\'bc\'ad \'ba\'b9\'bb\'e7\'b8\'a6 \'c7\'d8\'bf\'cd\'bc\'ad \'bb\'e7\'bf\'eb\
+\'c7\'c1\'b7\'ce\'c1\'a7\'c6\'ae\'bf\'a1 \'be\'f8\'c0\'b8\'b8\'e9 servers \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\'bf\'a1 \'c0\'d6\'b4\'c2 \'c6\'c4\'c0\'cf\'b5\'e9\'c0\'bb \'c0\'cc\'bf\'eb\'c7\'d8\'bc\'ad \'bc\'b3\'c1\'a4\
+\'c5\'e8\'c4\'b9\'c0\'c7 conf \'b5\'f0\'b7\'ba\'c5\'e4\'b8\'ae\'c0\'c7 \'c6\'c4\'c0\'cf\'c0\'bb \'bc\'f6\'c1\'a4\'c7\'df\'c0\'b8\'b8\'e9 \'bf\'f6\'c5\'a9\'bd\'ba\'c6\'e4\'c0\'cc\'bd\'ba\'bf\'a1\'bc\'ad \'bc\'ad\'b9\'f6\'b8\'a6 \'c1\'f6\'bf\'ec\'b0\'ed \'b4\'d9\'bd\'c3 \'bb\'fd\'bc\'ba\'c7\'d8\'be\'df \'bc\'f6\'c1\'a4\'c7\'d1 \'b3\'bb\'bf\'eb\'c0\'cc \'b9\'dd\'bf\'b5\'b5\'cb\'b4\'cf\'b4\'d9.\
+\
+\
+\
+**jsp \'b9\'ae\'bc\'ad \'b1\'b8\'c1\'b6\
+=>HTML \'b3\'bb\'bf\'a1 \'c0\'da\'b9\'d9\'c4\'da\'b5\'e5\'b0\'a1 \'bb\'f0\'c0\'d4\'b5\'c7\'b4\'c2 \'b1\'b8\'c1\'b6\'b7\'ce \'c0\'db\'bc\'ba\
+=>\'c0\'da\'b9\'d9\'c4\'da\'b5\'e5\'b8\'a6 \'b8\'d5\'c0\'fa \'bd\'c7\'c7\'e0\'bd\'c3\'c4\'d1\'bc\'ad \'b0\'e1\'b0\'fa\'b8\'a6 HTML\'b7\'ce \'ba\'af\'c8\'af\'c7\'cf\'b0\'ed \'b1\'d7 \'ba\'af\'c8\'af\'b5\'c8 \'b0\'e1\'b0\'fa\'bf\'cd \'b1\'e2\'c1\'b8 HTML\'c4\'da\'b5\'e5\'b8\'a6 \'c1\'b6\'c7\'d5\'c7\'d8\'bc\'ad \'c3\'e2\'b7\'c2\'b9\'b0\'c0\'bb \'bb\'fd\'bc\'ba\
+=>\'c0\'da\'b9\'d9 \'b6\'c7\'b4\'c2 jsp \'c5\'c2\'b1\'d7\'bf\'cd html \'c4\'da\'b5\'e5\'b0\'a1 \'b0\'b0\'c0\'cc \'c1\'b8\'c0\'e7\'c7\'cf\'b8\'e9 \'c0\'da\'b9\'d9\'b3\'aa jsp \'c5\'c2\'b1\'d7\'b8\'a6 \'b8\'d5\'c0\'fa \'c7\'d8\'bc\'ae\'c7\'cf\'b0\'ed \'b3\'aa\'b8\'d3\'c1\'f6 html \'c0\'bb \'c7\'d8\'bc\'ae\'c7\'d5\'b4\'cf\'b4\'d9.\
+=>\'c0\'da\'b9\'d9\'b3\'aa jsp \'c5\'c2\'b1\'d7\'bf\'a1\'bc\'ad \'b8\'b8\'b5\'e7 \'ba\'af\'bc\'f6\'b4\'c2 javascript\'b3\'aa html \'c5\'c2\'b1\'d7 \'b3\'bb\'bf\'a1\'bc\'ad \'bb\'e7\'bf\'eb\'c0\'cc \'b0\'a1\'b4\'c9\'c7\'cf\'c1\'f6\'b8\'b8 jacascript \'b0\'a1 \'b8\'b8\'b5\'e7 \'ba\'af\'bc\'f6\'b4\'c2 \'c0\'da\'b9\'d9\'b3\'aa jsp \'c5\'c2\'b1\'d7\'bf\'a1\'bc\'ad \'bb\'e7\'bf\'eb \'b8\'f8\'c7\'d4\
+\
+1.jsp \'bd\'c7\'c7\'e0 \'bf\'f8\'b8\'ae\
+\'bf\'e4\'c3\'bb -> JSP -> \'bc\'ad\'ba\'ed\'b8\'b4 \'c5\'ac\'b7\'a1\'bd\'ba\'c0\'c7 \'bc\'d2\'bd\'ba\'c4\'da\'b5\'e5\'b7\'ce \'ba\'af\'c8\'af -> \'bc\'d2\'bd\'ba\'c4\'da\'b5\'e5\'b8\'a6 \'c4\'c4\'c6\'c4\'c0\'cf\'c7\'d8\'bc\'ad \'c5\'ac\'b7\'a1\'bd\'ba \'c6\'c4\'c0\'cf \'bb\'fd\'bc\'ba -> \'c0\'ce\'bd\'ba\'c5\'cf\'bd\'ba\'c8\'ad(\'b0\'b4\'c3\'bc \'bb\'fd\'bc\'ba) -> \'c7\'ca\'bf\'e4\'c7\'d1 \'b3\'bb\'bf\'eb\'c0\'bb \'bd\'c7\'c7\'e0 -> \'c5\'ac\'b7\'a1\'bd\'ba\'bf\'cd \'b0\'b4\'c3\'bc \'b8\'f0\'b5\'ce \'c1\'a6\'b0\'c5 \
+\
+\
+2.\'bf\'e4\'c3\'bb\'c0\'cc \'bf\'c3\'b6\'a7\'b8\'b6\'b4\'d9 \'bc\'d2\'bd\'ba \'c4\'da\'b5\'e5\'b8\'a6 \'b4\'d9\'bd\'c3 \'b8\'b8\'b5\'e9\'b0\'ed \'b0\'b4\'c3\'bc\'b8\'a6 \'bb\'f5\'b7\'ce \'bb\'fd\'bc\'ba\'c7\'cf\'b1\'e2 \'b6\'a7\'b9\'ae\'bf\'a1 \'b3\'bb\'bf\'eb\'c0\'cc \'bc\'f6\'c1\'a4\'b5\'c7\'b4\'f5\'b6\'f3\'b5\'b5 \'c0\'fa\'c0\'e5\'b8\'b8 \'c7\'cf\'b8\'e9 \'b9\'d9\'b7\'ce \'b9\'dd\'bf\'b5\'b5\'cb\'b4\'cf\'b4\'d9.\
+\
+\
+3.\'bc\'d2\'bd\'ba \'c4\'da\'b5\'e5\
+1)<!DOCTYPE..> \'c0\'cc\'c0\'fc \'ba\'ce\'ba\'d0\
+=>\'c0\'cc \'bf\'b5\'bf\'aa\'bf\'a1 jsp \'bf\'a1 \'b4\'eb\'c7\'d1 \'bc\'b3\'c1\'a4\
+\
+2)<!DOCTYPE..> \'c0\'cc\'c8\'c4 \'ba\'ce\'ba\'d0\
+=>\'c3\'e2\'b7\'c2 \'c4\'da\'b5\'e5\
+\
+\
+4.\'b1\'b8\'bc\'ba\'bf\'e4\'bc\'d2\
+1)Directive : JSP \'bc\'b3\'c1\'a4 \'c4\'da\'b5\'e5\
+\
+2)Script :  Scriptlit(\'c0\'da\'b9\'d9 \'bd\'c7\'c7\'e0 \'c4\'da\'b5\'e5), Expression(\'c3\'e2\'b7\'c2 \'c4\'da\'b5\'e5), Declaration(\'bc\'b1\'be\'f0\'b9\'ae)\
+\
+3)Expression Language : \'c0\'da\'b9\'d9\'c0\'c7 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6 \'c3\'e2\'b7\'c2\'c7\'cf\'b1\'e2 \'c0\'a7\'c7\'d1 \'be\'f0\'be\'ee\
+\
+4)Implicit Object(\'b3\'bb\'c0\'e5\'b0\'b4\'c3\'bc) : jsp \'c6\'c4\'c0\'cf\'bf\'a1 \'c3\'b3\'c0\'bd\'ba\'ce\'c5\'cd \'c1\'a6\'b0\'f8\'b5\'c7\'b4\'c2 \'b0\'b4\'c3\'bc\
+\
+5)Action Tag : JSP\'bf\'a1\'bc\'ad \'c1\'a6\'b0\'f8\'c7\'cf\'b4\'c2 \'c6\'af\'ba\'b0\'c7\'d1 \'b1\'e2\'b4\'c9\'c0\'bb \'b0\'a1\'c1\'f8 \'c5\'c2\'b1\'d7\
+java \'c4\'da\'b5\'e5\'b8\'a6 \'c5\'c2\'b1\'d7\'b7\'ce \'ba\'af\'b0\'e6\'c7\'d8 \'b3\'f5\'c0\'ba \'b0\'cd\
+\
+6)Custom Tag & JSTL\
+=>\'b0\'b3\'b9\'df\'c0\'da\'b0\'a1 \'b8\'b8\'b5\'e7 \'c5\'c2\'b1\'d7\
+\
+\
+\
+**Directive\
+=>jsp \'bc\'b3\'c1\'a4\'bf\'a1 \'b0\'fc\'b7\'c3\'b5\'c8 \'c4\'da\'b5\'e5\'b7\'ce <%@ \'b7\'ce \'bd\'c3\'c0\'db\
+=><%@ \'b5\'f0\'b7\'ba\'c6\'bc\'ba\'ea\'c0\'cc\'b8\'a7 \'bc\'d3\'bc\'ba=\'b0\'aa \'bc\'d3\'bc\'ba=\'b0\'aa ...> \'c7\'fc\'c5\'c2\'b7\'ce \'c0\'db\'bc\'ba\
+1.\'b5\'f0\'b7\'ba\'c6\'bc\'ba\'ea \'c0\'cc\'b8\'a7\
+1)page : \'c7\'f6\'c0\'e7 \'c6\'e4\'c0\'cc\'c1\'f6 \'bc\'b3\'c1\'a4\
+\
+2)taglib : \'bf\'dc\'ba\'ce \'c5\'c2\'b1\'d7 \'b6\'f3\'c0\'cc\'ba\'ea\'b7\'af\'b8\'ae\'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'cf\'b0\'ed\'c0\'da \'c7\'d2 \'b6\'a7\
+\
+3)include : \'b4\'d9\'b8\'a5 \'c6\'c4\'c0\'cf\'c0\'bb \'c6\'f7\'c7\'d4\'c7\'d2 \'b6\'a7 \'bb\'e7\'bf\'eb\
+\
+\
+2.page \'b5\'f0\'b7\'ba\'c6\'bc\'ba\'ea\
+=>contentType : jsp \'b0\'a1 \'bb\'fd\'bc\'ba\'c7\'d2 \'b0\'e1\'b0\'fa \'b9\'ae\'bc\'ad\'c0\'c7 \'c5\'b8\'c0\'d4\'c0\'bb \'bc\'b3\'c1\'a4\'c7\'cf\'b4\'c2 \'b0\'cd\'c0\'b8\'b7\'ce \'b1\'e2\'ba\'bb\'c0\'ba text/html\
+text/json \'c0\'cc \'b5\'c7\'b8\'e9 json\'c0\'cc \'bb\'fd\'bc\'ba\
+text/xml \'c0\'cc \'b5\'c7\'b8\'e9 xml \'c0\'cc \'bb\'fd\'bc\'ba\
+text/plain\'c0\'cc \'b5\'c7\'b8\'e9 text \'c6\'c4\'c0\'cf\'c0\'cc \'bb\'fd\'bc\'ba\
+\
+charset\'c0\'bb \'c3\'df\'b0\'a1 \'bc\'b3\'c1\'a4\'c7\'d2 \'bc\'f6 \'c0\'d6\'b4\'c2\'b5\'a5 \'bb\'fd\'b7\'ab\'c7\'cf\'b8\'e9 ISO-8859-1 \'c0\'cc \'b5\'cb\'b4\'cf\'b4\'d9.\
+\
+=>import : \'bf\'dc\'ba\'ce\'bf\'a1 \'c0\'d6\'b4\'c2 \'c6\'d0\'c5\'b0\'c1\'f6\'c0\'c7 \'c5\'ac\'b7\'a1\'bd\'ba\'c0\'c7 \'b0\'e6\'b7\'ce\'b8\'a6 \'c1\'d9\'bf\'a9\'be\'b2\'b1\'e2 \'c0\'a7\'c7\'d1 \'bc\'b3\'c1\'a4\
+<%@ page import="\'c6\'d0\'c5\'b0\'c1\'f6 \'b0\'e6\'b7\'ce, \'c6\'d0\'c5\'b0\'c1\'f6 \'b0\'e6\'b7\'ce ...," %>\
+java.lang, javax.sevlet, javax.servlet.jsp, javax.servlet.http \'c6\'d0\'c5\'b0\'c1\'f6\'b4\'c2 import \'c7\'d2 \'c7\'ca\'bf\'e4\'b0\'a1 \'be\'f8\'bd\'c0\'b4\'cf\'b4\'d9.\
+\
+=>session : HttpSession\'c0\'c7 \'bb\'e7\'bf\'eb\'bf\'a9\'ba\'ce\'b8\'a6 boolean\'c0\'b8\'b7\'ce \'bc\'b3\'c1\'a4\
+\
+=>errorPage : \'bf\'a1\'b7\'af\'b0\'a1 \'b9\'df\'bb\'fd\'c7\'df\'c0\'bb \'b6\'a7 \'ba\'b8\'bf\'a9\'c1\'fa \'c6\'e4\'c0\'cc\'c1\'f6\'c0\'c7 URL \'bc\'b3\'c1\'a4\
+\
+=>isErrorPage : \'bf\'a1\'b7\'af \'c6\'e4\'c0\'cc\'c1\'f6 \'bf\'a9\'ba\'ce\'b8\'a6 boolean\'c0\'b8\'b7\'ce \'bc\'b3\'c1\'a4\'c7\'cf\'b4\'c2 \'c0\'cc  \'c0\'cc \'bc\'b3\'c1\'a4\'bf\'a1 \'b5\'fb\'b6\'f3 exception \'b0\'b4\'c3\'bc\'c0\'c7 \'bb\'e7\'bf\'eb \'bf\'a9\'ba\'ce\'b0\'a1 \'b0\'e1\'c1\'a4\'b5\'cb\'b4\'cf\'b4\'d9.\
+true \'c0\'cc\'b8\'e9 exception \'b0\'b4\'c3\'bc\'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'d2 \'bc\'f6 \'c0\'d6\'b0\'ed false\'c0\'cc\'b8\'e9 exception \'b0\'b4\'c3\'bc \'bb\'e7\'bf\'eb \'ba\'d2\'b0\'a1\
+\
+=>pageEncoding : \'bc\'d2\'bd\'ba \'c6\'c4\'c0\'cf\'c0\'c7 \'c0\'ce\'c4\'da\'b5\'f9\
+\'bc\'b3\'c1\'a4\'c7\'cf\'c1\'f6 \'be\'ca\'c0\'b8\'b8\'e9 \'c0\'fa\'c0\'e5\'c7\'d2 \'b6\'a7 \'b0\'e6\'b0\'ed\'b0\'a1 \'b9\'df\'bb\'fd\
+\
+=>isELIgnored : EL\'c0\'c7 \'bb\'e7\'bf\'eb \'bf\'a9\'ba\'ce\'b8\'a6 boolean\'c0\'b8\'b7\'ce \'bc\'b3\'c1\'a4\
+\
+=>trimDirectiveWhitespaces : \'c1\'f6\'bd\'c3\'c0\'da \'b9\'d9\'b7\'ce \'b4\'d9\'c0\'bd\'bf\'a1 \'b0\'f8\'b9\'e9\'c0\'cc \'c0\'d6\'c0\'bb \'b6\'a7 \'b0\'f8\'b9\'e9\'c0\'bb \'c1\'a6\'b0\'c5\
+\
+\
+3.include \'b5\'f0\'b7\'ba\'c6\'bc\'ba\'ea\
+=>\'b4\'d9\'b8\'a5 \'c6\'c4\'c0\'cf\'c0\'c7 \'b3\'bb\'bf\'eb\'c0\'bb \'b0\'a1\'c1\'ae\'bf\'c3 \'b6\'a7  \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2 \'b5\'f0\'b7\'ba\'c6\'bc\'ba\'ea\
+=>\'b5\'bf\'c0\'cf\'c7\'d1 \'b5\'f0\'c0\'da\'c0\'ce\'c0\'bb \'c0\'fb\'bf\'eb\'c7\'cf\'b0\'ed \'bc\'bc\'ba\'ce \'b3\'bb\'bf\'eb\'b8\'b8 \'ba\'af\'b0\'e6\'b5\'c7\'b4\'c2 \'b0\'e6\'bf\'ec \'bb\'e7\'bf\'eb\
+<%@ include file="\'c6\'f7\'c7\'d4\'bd\'c3\'c5\'b3 \'c6\'c4\'c0\'cf\'c0\'c7 \'b0\'e6\'b7\'ce" %@>\
+\
+\
+**\'bd\'ba\'c5\'a9\'b8\'b3\'c6\'ae \'bf\'e4\'bc\'d2\
+=>jsp\'bf\'a1\'bc\'ad \'c0\'da\'b9\'d9 \'b7\'ce\'c1\'f7\'c0\'bb \'bb\'e7\'bf\'eb\'c7\'cf\'b1\'e2 \'c0\'a7\'c7\'d1 \'c4\'da\'b5\'e5\
+1.\'c0\'da\'b9\'d9\'c4\'da\'b5\'e5 - scriptlet\
+<% \'c0\'da\'b9\'d9\'c4\'da\'b5\'e5 %>\
+\
+\
+2.\'c0\'da\'b9\'d9 \'b5\'a5\'c0\'cc\'c5\'cd \'c3\'e2\'b7\'c2 - expression\
+<%= \'c0\'da\'b9\'d9 \'b5\'a5\'c0\'cc\'c5\'cd %>\
+=>\'b5\'a5\'c0\'cc\'c5\'cd\'c0\'c7 toString()\'c0\'bb \'c8\'a3\'c3\'e2\'c7\'d1 \'b0\'e1\'b0\'fa\'b0\'a1 \'c3\'e2\'b7\'c2\
+\
+\
+3.\'bc\'b1\'be\'f0\'b9\'ae - declaration\
+=><% \'bc\'b1\'be\'f0 %>\
+\'c1\'f6\'bf\'aa \'ba\'af\'bc\'f6\'c0\'c7 \'b0\'b3\'b3\'e4\'c0\'cc\'b6\'f3\'bc\'ad jsp \'c6\'c4\'c0\'cf\'c0\'bb \'c8\'a3\'c3\'e2\'c7\'d2 \'b6\'a7\'b8\'b6\'b4\'d9 \'bc\'b1\'be\'f0\'b5\'c7\'b0\'ed \'c3\'ca\'b1\'e2\'c8\'ad \'b5\'cb\'b4\'cf\'b4\'d9.\
+\
+=><%! \'bc\'b1\'be\'f0 %>\
+\'c3\'b3\'c0\'bd \'c8\'a3\'c3\'e2\'b5\'c9 \'b6\'a7 \'c7\'d1\'b9\'f8\'b8\'b8 \'bb\'fd\'bc\'ba\'b5\'c7\'b0\'ed \'b4\'d9\'c0\'bd\'ba\'ce\'c5\'cd\'b4\'c2 \'b4\'d9\'bd\'c3 \'bb\'fd\'bc\'ba\'c7\'cf\'c1\'f6 \'be\'ca\'bd\'c0\'b4\'cf\'b4\'d9.\
+static\'c0\'c7 \'b0\'b3\'b3\'e4\
+\
+\
+4.Model 2 MVC Pattern \'bf\'a1\'bc\'ad\'b4\'c2 jsp\'bf\'a1 \'c0\'da\'b9\'d9\'c4\'da\'b5\'e5\'b8\'a6 \'bb\'f0\'c0\'d4\'c7\'cf\'b4\'c2 \'b0\'cd\'c0\'bb \'b1\'c7\'c0\'e5\'c7\'cf\'c1\'f6 \'be\'ca\'bd\'c0\'b4\'cf\'b4\'d9.\
+Model 2 MVC Pattern\'c0\'bb \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2 \'b0\'e6\'bf\'ec\'bf\'a1\'b4\'c2 \'bd\'ba\'c5\'a9\'b8\'b3\'c6\'ae \'c4\'da\'b5\'e5\'b8\'a6 \'b0\'c5\'c0\'c7 \'bb\'e7\'bf\'eb\'c7\'cf\'c1\'f6 \'be\'ca\'bd\'c0\'b4\'cf\'b4\'d9.\
+\
+\
+5.\'bd\'ba\'c5\'a9\'b8\'b3\'c6\'ae\'b4\'c2 \'be\'ee\'b6\'b2 \'bd\'c4\'c0\'b8\'b7\'ce \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2\'c1\'f6 \'ba\'c1\'b5\'ce\'b4\'c2 \'c1\'a4\'b5\'b5\'b8\'b8 \'c7\'d8\'b5\'b5 \'b5\'ca\
+\
+\
+\
+**JSP \'c1\'d6\'bc\'ae\
+<%--\'c1\'d6\'bc\'ae--%>\
+\
+1.Java \'c1\'d6\'bc\'ae\
+1) // \'c7\'d1\'c1\'d9 \'c1\'d6\'bc\'ae\
+2) /* \'bf\'a9\'b7\'af\'c1\'d9 \'c1\'d6\'bc\'ae */\
+3) /** Java Doc \'c1\'d6\'bc\'ae */\
+\
+\
+2.HTML \'c0\'cc\'b3\'aa XML \'c1\'d6\'bc\'ae\
+<!-- \'c1\'d6\'bc\'ae -->\
+\
+\
+3.CSS \'c1\'d6\'bc\'ae\
+/* \'c1\'d6\'bc\'ae */\
+\
+ \
+4.JavaScript \'c1\'d6\'bc\'ae\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 1) // \'c7\'d1\'c1\'d9 \'c1\'d6\'bc\'ae\
+2) /* \'bf\'a9\'b7\'af\'c1\'d9 \'c1\'d6\'bc\'ae */\
+\
+\
+5.JSP \'c1\'d6\'bc\'ae\
+<%-- \'c1\'d6\'bc\'ae --%>\
+\
+\
+6.\'bc\'ad\'ba\'ed\'b8\'b4, \'bd\'ba\'c7\'c1\'b8\'b5, \'be\'c8\'b5\'e5\'b7\'ce\'c0\'cc\'b5\'e5 - \'c0\'da\'b9\'d9\
+\'bd\'ba\'c0\'a7\'c7\'c1\'c6\'ae\'b5\'b5 \'c1\'d6\'bc\'ae\'c0\'ba \'b5\'bf\'c0\'cf\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+}
